@@ -13,3 +13,17 @@ from random import randint
 
 
 # Begin your solution here...
+fortune_luck: int = randint(1, 9)
+
+print("Your fortune cookie says...")
+if fortune_luck < 3:
+    print("You're amazing person who will recieve good news this week.")
+else: 
+    if fortune_luck < 5: 
+        print("Everyone loves you and is rooting for your success.")
+    else: 
+            if fortune_luck < 7:
+                print("You will achieve your dreams just keep figthing")
+            else:
+                print("Your story has just begun good things will come.")
+print("Now, go spread positive vibes!")
